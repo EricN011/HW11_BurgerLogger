@@ -1,24 +1,12 @@
 INSERT INTO burgers
-    (name)
+    (name, devoured)
 VALUES
-    ('Meeses');
+    ("black bean", TRUE);
 INSERT INTO burgers
-    (name)
+    (name, devoured)
 VALUES
-    ('Bobbi');
+    ("impossible", TRUE);
 INSERT INTO burgers
-    (name, sleepy)
+    (name, devoured)
 VALUES
-    ('Sylvester', true);
-INSERT INTO burgers
-    (name, sleepy)
-VALUES
-    ('Marilyn Manson', true);
-INSERT INTO burgers
-    (name, sleepy)
-VALUES
-    ('Joe Biden', true);
-INSERT INTO burgers
-    (name)
-VALUES
-    ('Owens');
+    ("bacon burger", FALSE);
